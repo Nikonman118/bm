@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Stats</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img id="bot-avatar" src="" alt="Bot Avatar" class="avatar">
+            <h1 id="bot-name">Loading...</h1>
+            <span id="status" class="status">Connecting...</span>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon">🖥️</div>
+                <div class="stat-value" id="servers">-</div>
+                <div class="stat-label">Servers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">👥</div>
+                <div class="stat-value" id="users">-</div>
+                <div class="stat-label">Users</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📺</div>
+                <div class="stat-value" id="channels">-</div>
+                <div class="stat-label">Channels</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-value" id="ping">-</div>
+                <div class="stat-label">Ping</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⏱️</div>
+                <div class="stat-value" id="uptime">-</div>
+                <div class="stat-label">Uptime</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">💾</div>
+                <div class="stat-value" id="memory">-</div>
+                <div class="stat-label">Memory</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">🔧</div>
+                <div class="stat-value" id="commands">-</div>
+                <div class="stat-label">Commands</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">📦</div>
+                <div class="stat-value" id="version">-</div>
+                <div class="stat-label">Discord.js</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Auto-updates every 5 seconds</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
